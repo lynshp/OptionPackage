@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "repository": "lynshp/OptionPackage",
-  "release": "sddt-1.50-20260816",
+  "release": "option",
   "gameVersion": {
     "major": 1,
     "minor": 50
