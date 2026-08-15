@@ -1,0 +1,925 @@
+{
+  "schemaVersion": 1,
+  "repository": "lynshp/OptionPackage",
+  "release": "sddt-1.50-20260816",
+  "gameVersion": {
+    "major": 1,
+    "minor": 50
+  },
+  "optionPackages": [
+    {
+      "id": "A001",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A001.zip",
+      "size": 39739889,
+      "sha256": "c4d2a90ca81e67267a47ff4663bf00c04ebd7696367633740b367148af26ed87",
+      "fileCount": 86,
+      "required": false
+    },
+    {
+      "id": "A002",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A002.zip",
+      "size": 30901021,
+      "sha256": "f43a6437e8fe4023baaa2522bafd1e1c6df03c842bedb521b646591695a026d6",
+      "fileCount": 62,
+      "required": false
+    },
+    {
+      "id": "A003",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A003.zip",
+      "size": 44935364,
+      "sha256": "789fb93e3b2ba9960e76eb653c50402d3674c2ea1805492d040bc024b88b373c",
+      "fileCount": 92,
+      "required": false
+    },
+    {
+      "id": "A004",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A004.zip",
+      "size": 33357212,
+      "sha256": "b333254a737f1bceee22c6bf95b0bc1f8fa4c7d52fd3a3cd7efe146057da8e72",
+      "fileCount": 80,
+      "required": false
+    },
+    {
+      "id": "A005",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A005.zip",
+      "size": 182957247,
+      "sha256": "b4adb5c25458af2993c716a0e32c4205257906451d8e1b38b5a6ef5c7dbe5478",
+      "fileCount": 418,
+      "required": false
+    },
+    {
+      "id": "A006",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A006.zip",
+      "size": 203579535,
+      "sha256": "ec31288a8f6be9890f91c16238435fb789839a633ae24c928b8f1471872ea422",
+      "fileCount": 456,
+      "required": false
+    },
+    {
+      "id": "A007",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A007.zip",
+      "size": 231785385,
+      "sha256": "7069210f83f49a81525696a63ea7935ce03ea016a204b37ce55a7269bd68b7ad",
+      "fileCount": 490,
+      "required": false
+    },
+    {
+      "id": "A008",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A008.zip",
+      "size": 240253347,
+      "sha256": "fa00d12ce015d9e21774ce7ce801aa12cd978484bf0232d0f4d4093076f1b3c6",
+      "fileCount": 496,
+      "required": false
+    },
+    {
+      "id": "A009",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A009.zip",
+      "size": 234263488,
+      "sha256": "294a3f3e86954f0b0cb802fe16826bce58eb5751744c33548df741f5ff08e23f",
+      "fileCount": 496,
+      "required": false
+    },
+    {
+      "id": "A010",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A010.zip",
+      "size": 232240526,
+      "sha256": "ca08350699096fd05864282c73bc7ef9f4d48acac10843d92ff4eacd2374834e",
+      "fileCount": 487,
+      "required": false
+    },
+    {
+      "id": "A011",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A011.zip",
+      "size": 173840503,
+      "sha256": "daa3bd5e0881a0dfb6b8b61d0f9cd6d4217bfdecd1bfc80bc5efc33d19770efe",
+      "fileCount": 380,
+      "required": false
+    },
+    {
+      "id": "A012",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A012.zip",
+      "size": 228450640,
+      "sha256": "13a6a775b6db6abab39c6797b110a9fb41834f9f89dce7f91097f3cd15c08e3e",
+      "fileCount": 475,
+      "required": false
+    },
+    {
+      "id": "A013",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A013.zip",
+      "size": 229284251,
+      "sha256": "788fc94efad42ea5150ce6cbfcadbfe36ee74e7ac86177ec62ec2f1f5d53ba43",
+      "fileCount": 478,
+      "required": false
+    },
+    {
+      "id": "A014",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A014.zip",
+      "size": 241964233,
+      "sha256": "d9f63c0f7c8589eda67c5d7b45bdc66630cd0859b96a58ae8a468751067fa183",
+      "fileCount": 493,
+      "required": false
+    },
+    {
+      "id": "A015",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A015.zip",
+      "size": 184350427,
+      "sha256": "764e424b9bdd155f22bb884a4e64282d10b00535fd99d70c7eb36737d2f20ab7",
+      "fileCount": 392,
+      "required": false
+    },
+    {
+      "id": "A016",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 1
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A016.zip",
+      "size": 342272142,
+      "sha256": "d34fd299b6ea2972d1f784fa8bb5cba598f97969365bc1485cbc93845747f675",
+      "fileCount": 1193,
+      "required": false
+    },
+    {
+      "id": "A017",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 2
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A017.zip",
+      "size": 291072,
+      "sha256": "2ce3757e592c2170e822ed2df55fdc0af78c59cf994eeabb192a676cb25c1451",
+      "fileCount": 9,
+      "required": false
+    },
+    {
+      "id": "A018",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 2
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A018.zip",
+      "size": 1501986,
+      "sha256": "3cff04f1987873094106f53fb86337737ee68e9f18546ab6318410225cc8df2d",
+      "fileCount": 31,
+      "required": false
+    },
+    {
+      "id": "A020",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 3
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A020.zip",
+      "size": 92266081,
+      "sha256": "1f5d3c9bd78545c217d53cc98001a7885b2448a9b33600ab05ea6ac288bf1f40",
+      "fileCount": 426,
+      "required": false
+    },
+    {
+      "id": "A024",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 4
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A024.zip",
+      "size": 205068145,
+      "sha256": "aed222d113a1a7b11a57fbb60f541b9b89e7f93269e2c97fe28523a652527423",
+      "fileCount": 447,
+      "required": false
+    },
+    {
+      "id": "A028",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 6
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A028.zip",
+      "size": 49276296,
+      "sha256": "fb5267c574361ca42bd7689f211cb9c0039ebb3b482cf8cc017f965e6b7cd820",
+      "fileCount": 303,
+      "required": false
+    },
+    {
+      "id": "A029",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 7
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A029.zip",
+      "size": 995278,
+      "sha256": "b821a5cd9eb974daccd3ca881fb62667fcdeda9c77d5ddbcd4ac7954907c22d7",
+      "fileCount": 10,
+      "required": false
+    },
+    {
+      "id": "A030",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 8
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A030.zip",
+      "size": 6785681,
+      "sha256": "b9aa86e5c28ad2cc33f2d71e5c91c73d38d35c555cbf61fea85a2af9e61166fc",
+      "fileCount": 29,
+      "required": false
+    },
+    {
+      "id": "A032",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 9
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A032.zip",
+      "size": 180626271,
+      "sha256": "d00959f928b7ec76c3b8590458ce9d3078d7192b6850504c0d11cd4ed7c81538",
+      "fileCount": 951,
+      "required": false
+    },
+    {
+      "id": "A033",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 10
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A033.zip",
+      "size": 1157,
+      "sha256": "8c750eb8507c2d8ac83903be5d985910a2ef6d224dcfba8e8021f49b4fb79de1",
+      "fileCount": 2,
+      "required": false
+    },
+    {
+      "id": "A034",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 11
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A034.zip",
+      "size": 1400,
+      "sha256": "64bdfe26ffb676a1537ef437aaaf7823e2d79d27d7e13afb20371c0041bc7570",
+      "fileCount": 2,
+      "required": false
+    },
+    {
+      "id": "A036",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 12
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A036.zip",
+      "size": 98153043,
+      "sha256": "5102cf067d3dddad92b0c537d16adcfc5e3ab37b060fc38b9eb845c196c79b7a",
+      "fileCount": 399,
+      "required": false
+    },
+    {
+      "id": "A037",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 12
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A037.zip",
+      "size": 249470415,
+      "sha256": "b6b47d98238dc6d0f9b0b52cea182c18663316f29cf6f2b1265a27f7fe1a97b8",
+      "fileCount": 530,
+      "required": false
+    },
+    {
+      "id": "A040",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 13
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A040.zip",
+      "size": 146046764,
+      "sha256": "0c1f42b73240fdf8ad99613cbff58041c1bc4ff322649816b7de262607c9885e",
+      "fileCount": 789,
+      "required": false
+    },
+    {
+      "id": "A041",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 13
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A041.zip",
+      "size": 472241539,
+      "sha256": "3a526f79a9c2af9ff99f3679a1eabd4b26eb887ea0fcd85e33732f0db9acccf2",
+      "fileCount": 4,
+      "required": false
+    },
+    {
+      "id": "A044",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 14
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A044.zip",
+      "size": 101642778,
+      "sha256": "035a935e6c7551013d0f8ca83812ea3ec892a87e70308634d16dcf4826766a3c",
+      "fileCount": 556,
+      "required": false
+    },
+    {
+      "id": "A048",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 15
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A048.zip",
+      "size": 92633816,
+      "sha256": "ac7b964542b9be3a0f067b93e91937a7ab1418ef7ab0bbf0fc054927a1253103",
+      "fileCount": 491,
+      "required": false
+    },
+    {
+      "id": "A049",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 15
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A049.zip",
+      "size": 15762530,
+      "sha256": "f069f2170e230d82bedcda947aa2e52242bab493e16d60756785e44af516ab53",
+      "fileCount": 4,
+      "required": false
+    },
+    {
+      "id": "A052",
+      "version": {
+        "major": 1,
+        "minor": 50,
+        "release": 16
+      },
+      "cardMakerVersion": {
+        "major": 1,
+        "minor": 50,
+        "release": 0
+      },
+      "asset": "A052.zip",
+      "size": 111891484,
+      "sha256": "f2536163cf0a4c7e76136b38047ccbafefb9855b07ec07f12bdccd96397858dc",
+      "fileCount": 619,
+      "required": false
+    }
+  ],
+  "mods": [
+    {
+      "id": "AttractVideoPlayer",
+      "displayName": "AttractVideoPlayer",
+      "version": "3.4.1",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.AttractVideoPlayer.mm.dll",
+      "size": 7680,
+      "sha256": "648eff45084d51dd6223d647ec5b1e550a1a77ac202c16826e51d080e7cd1dd7",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "BetterGiveUp",
+      "displayName": "BetterGiveUp",
+      "version": "3.5.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.BetterGiveUp.mm.dll",
+      "size": 12288,
+      "sha256": "7e106eb6519d568ceeb215a1dd6b228e7ee71e08f8f6de07e4528e35a08b07a1",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "Blacklist",
+      "displayName": "Blacklist",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.Blacklist.mm.dll",
+      "size": 5120,
+      "sha256": "0f6ff597526799e9c5f1d9c6888b923e84eabe65f6ab7a946d7a84fa25a2b008",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "DisableEncryption",
+      "displayName": "DisableEncryption",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.DisableEncryption.mm.dll",
+      "size": 5120,
+      "sha256": "d08d0a0808750845704b20654b040650f9640c46c149012b66909fb58c3f30ef",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "DisableGP",
+      "displayName": "DisableGP",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.DisableGP.mm.dll",
+      "size": 7168,
+      "sha256": "edb15ad71a9ec28ff4f7d9600598201e2a5c1d85e4d0ec7c3bd41c9d7686c3c9",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "DisableMaintenance",
+      "displayName": "DisableMaintenance",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.DisableMaintenance.mm.dll",
+      "size": 5120,
+      "sha256": "ad0b83f76cb62754c0b56c78aa8298ff6bfb115154d18848986e28e8f67c273f",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "DisableTimers",
+      "displayName": "DisableTimers",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.DisableTimers.mm.dll",
+      "size": 5120,
+      "sha256": "e5069a4de069fce48a590bcc59178e642b62aa8b2740f02ff5311ed7f0c2d35b",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "ExclusiveAudio",
+      "displayName": "ExclusiveAudio",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.ExclusiveAudio.mm.dll",
+      "size": 5632,
+      "sha256": "21f5ce8b0b40dde497d614786a6714b63f65ec326ff93d4bfb103c4ea9cde73e",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "FrameRate",
+      "displayName": "FrameRate",
+      "version": "3.5.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.FrameRate.mm.dll",
+      "size": 6656,
+      "sha256": "57ac3a50ec05db6d3e17480dbf04291410024f0201c362cf88c200e022ee51fd",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "InfiniteStory",
+      "displayName": "InfiniteStory",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.InfiniteStory.mm.dll",
+      "size": 5632,
+      "sha256": "5ea97d11d4e0c70ede63cf2c929ee6a1463e5693ac861f576c3235bdc3366515",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "LoadBoost",
+      "displayName": "LoadBoost",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.LoadBoost.mm.dll",
+      "size": 8704,
+      "sha256": "15ede076124545cf133c6002bfb93178191e1655dae9f29e337cec184a48cd31",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "MoreProfileOptions",
+      "displayName": "MoreProfileOptions",
+      "version": "3.5.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.MoreProfileOptions.mm.dll",
+      "size": 92672,
+      "sha256": "149d14d9add0c8f8fabeea4d5c8bbdc95b8a25d6de422d21b0b9d09fd24d405d",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "Pause",
+      "displayName": "Pause",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.Pause.mm.dll",
+      "size": 8192,
+      "sha256": "0b8624602bff3fd1e232e97e93a8de2ecf33e3420f84d1b4bc33223d1028a5e0",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "PlatinumTiming",
+      "displayName": "PlatinumTiming",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.PlatinumTiming.mm.dll",
+      "size": 8192,
+      "sha256": "91df28e8dc80e9cc0aaba1bd2f5f2e074c45213176aafa1d82054954cb78c07f",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "SelectBGM",
+      "displayName": "SelectBGM",
+      "version": "3.5.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.SelectBGM.mm.dll",
+      "size": 7168,
+      "sha256": "f74fc7dce88e09430d1148221d7a55f9ef7fccb0286fb22b92f159f5858c4c95",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "SkipCutscenes",
+      "displayName": "SkipCutscenes",
+      "version": "3.5.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.SkipCutscenes.mm.dll",
+      "size": 11264,
+      "sha256": "e3a639ab2b8cee71c39ea19dfbac3e14acb7af3fd685c14e8ef4d676d65142d9",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "SkipNotices",
+      "displayName": "SkipNotices",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.SkipNotices.mm.dll",
+      "size": 5120,
+      "sha256": "46962b1ef822ec30542854d7581722c9a16813e923b3e63346f5a9c2f08fdd7f",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "SortByInternalDifficulty",
+      "displayName": "SortByInternalDifficulty",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.SortByInternalDifficulty.mm.dll",
+      "size": 23040,
+      "sha256": "9ce34e675ec018d633fba6e002376746ac25189d33ba7ccd6df0d22913771b79",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "TestMenuConfig",
+      "displayName": "TestMenuConfig",
+      "version": "3.5.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.TestMenuConfig.mm.dll",
+      "size": 13824,
+      "sha256": "5140d98df87806d6429b9827b46b0b5d03d154fa51e49fd25c28f1ec995fd75c",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "TestMenuScaling",
+      "displayName": "TestMenuScaling",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.TestMenuScaling.mm.dll",
+      "size": 5120,
+      "sha256": "abc4473a79f348fd69371fbf3c2ad094644923adf5211fe3375b52ca359f46c0",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "UnlockAllMusic",
+      "displayName": "UnlockAllMusic",
+      "version": "3.5.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.UnlockAllMusic.mm.dll",
+      "size": 5632,
+      "sha256": "0b6ffb53e6f771aa6dc1e42377a8ff0769f65168e0bca52ebe589fd00665cf2c",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "UnlockAndSetJewelBoostNine",
+      "displayName": "UnlockAndSetJewelBoostNine",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.UnlockAndSetJewelBoostNine.mm.dll",
+      "size": 5120,
+      "sha256": "a6032006c3de6d728c1365b2fdcad261f48d8fb18949cfda59d347acb6c44fbb",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "UnlockGameEvents",
+      "displayName": "UnlockGameEvents",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.UnlockGameEvents.mm.dll",
+      "size": 8192,
+      "sha256": "38a58762e59298d5515b792ad627d59b434d99518d7441b4a997f5238c1f3c6e",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "UnlockMasterDifficulty",
+      "displayName": "UnlockMasterDifficulty",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.UnlockMasterDifficulty.mm.dll",
+      "size": 4608,
+      "sha256": "891b5e6d596ec97df909ee9bb3b272ff197a62bc7ce55cf0c51d4340b92d0edf",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
+      "id": "UnlockMemoryChapters",
+      "displayName": "UnlockMemoryChapters",
+      "version": "3.4.0",
+      "kind": "MonoModPatch",
+      "asset": "Assembly-CSharp.UnlockMemoryChapters.mm.dll",
+      "size": 6144,
+      "sha256": "8f3e7a96931ee51fc69761f3f19fa81972baf4c5a6daf2aac7ba9de30112fb81",
+      "installPath": "BepInEx/monomod",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    }
+  ]
+}
