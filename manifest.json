@@ -929,5 +929,17 @@
     "installPath": "BepInEx/monomod",
     "requiresRestart": true
   }
-]
+],
+  "communityVersions": [
+    {
+      "id": "160d-20261110",
+      "displayName": "ONGEKI 1.60-D",
+      "revision": "2026-11-10",
+      "baseline": "1.52P",
+      "asset": "ongeki-160d-20261110-from-152p.zip",
+      "release": "option",
+      "size": 164025555,
+      "sha256": "0a1c5ce87df8c1faf477fd0cd2095db903320d4b82a0c00546370ccb3fc7da58"
+    }
+  ]
 }
