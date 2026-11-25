@@ -950,7 +950,12 @@
       "asset": "ongeki-160d-261124-delta-from-20261110.zip",
       "release": "option",
       "size": 119270183,
-      "sha256": "1effd05626332d32a9a10704fb9ae30bdc771b430464fcb6591132d0708a07e0"
+      "sha256": "1effd05626332d32a9a10704fb9ae30bdc771b430464fcb6591132d0708a07e0",
+      "updatedOptions": [
+        "ACHP",
+        "AIME",
+        "ANOV"
+      ]
     }
   ]
 }
