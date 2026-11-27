@@ -622,6 +622,21 @@
   ],
   "mods": [
     {
+      "id": "AMDaemon.NET.Steroid",
+      "displayName": "AMDaemon.NET.Steroid",
+      "chineseName": "AMDaemon 调用内联优化（仅 1.60）",
+      "description": "MU3 Optimizer（sbga-tech/mu3-optimizer）的 AMDaemon 配套补丁，仅适用于 1.60 社区版。内联 AMDaemon.NET 原生调用以减少委托分配与间接跳转开销（对应 mu3.ini 中 [Optimization] InlinedAMDaemonCalls），建议与主补丁 Steroid 一起安装。",
+      "version": "0.2.0",
+      "kind": "MonoMod",
+      "asset": "AMDaemon.NET.Steroid.mm.dll",
+      "size": 31232,
+      "sha256": "de591c98db039944b3c97a98b30e8fcfbe4d9757fd577b7a7fca17ac014ffdeb",
+      "installPath": "BepInEx/monomod",
+      "category": "fixes",
+      "gameVersion": "1.60",
+      "requiresRestart": true
+    },
+    {
       "id": "AttractVideoPlayer",
       "displayName": "AttractVideoPlayer",
       "version": "3.7.0",
@@ -850,6 +865,21 @@
       "size": 24064,
       "sha256": "bf5cb75d53df88a457bb2dc81701be5ee53bbc7984744dc3a67353c0961561a3",
       "installPath": "BepInEx/monomod",
+      "requiresRestart": true
+    },
+    {
+      "id": "Steroid",
+      "displayName": "Steroid",
+      "chineseName": "深度性能优化（仅 1.60）",
+      "description": "MU3 Optimizer（sbga-tech/mu3-optimizer）主补丁，仅适用于 1.60 社区版。优化渲染分层、Bloom、高刷物理、音符 GPU 合批、轨道原生网格、开歌预热、联机 GC、登录并发与 Unity 底层 Hook（含 GraphicsJobs 崩溃修复）；各项可在 mu3.ini 的 [Optimization] 中开关。建议搭配 AMDaemon.NET.Steroid 一起安装。",
+      "version": "0.2.0",
+      "kind": "MonoMod",
+      "asset": "Assembly-CSharp.Steroid.mm.dll",
+      "size": 1481728,
+      "sha256": "65254fe15619744016ba57e707b4057cdc0859ddecd2aa5014cbdc8db8947d44",
+      "installPath": "BepInEx/monomod",
+      "category": "fixes",
+      "gameVersion": "1.60",
       "requiresRestart": true
     },
     {
