@@ -622,30 +622,6 @@
   ],
   "mods": [
     {
-      "id": "AMDaemon.NET.Steroid",
-      "displayName": "AMDaemon.NET.Steroid",
-      "chineseName": "AMDaemon 调用内联优化",
-      "description": "内联 AMDaemon.NET 原生接口调用，减少每次调用的委托分配与间接跳转开销；可独立使用，建议搭配「深度性能优化」一起启用。",
-      "version": "0.2.0",
-      "kind": "MonoMod",
-      "asset": "AMDaemon.NET.Steroid.mm.dll",
-      "size": 31232,
-      "sha256": "2f25fa2d1bdfa0222876a368edbfd1dfa01868a73565865591dc959566a09534",
-      "installPath": "BepInEx/monomod",
-      "category": "fixes",
-      "gameVersion": "1.50",
-      "requiresRestart": true,
-      "configOptions": [
-        {
-          "section": "Optimization",
-          "key": "InlinedAMDaemonCalls",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "内联 AMDaemon.NET 原生调用消除委托分配（InlinedAMDaemonCalls）"
-        }
-      ]
-    },
-    {
       "id": "AttractVideoPlayer",
       "displayName": "AttractVideoPlayer",
       "version": "3.7.0",
@@ -877,227 +853,6 @@
       "requiresRestart": true
     },
     {
-      "id": "Steroid",
-      "displayName": "Steroid",
-      "chineseName": "深度性能优化",
-      "description": "大幅降低高帧率与密谱下的渲染和 CPU/GC 开销，预热局中特效并加速登录（含 Unity GraphicsJobs 崩溃修复）；适配 SDDT 1.50 / 1.60-D 社区版，各项可在 mu3.ini 的 [Optimization] 中单独开关。",
-      "version": "0.2.0",
-      "kind": "MonoMod",
-      "asset": "Assembly-CSharp.Steroid.mm.dll",
-      "size": 1481728,
-      "sha256": "b199955f4724bd09c62b1ac9ccc14af4c747a60c6aa304d7b29a8e760e5e18bb",
-      "installPath": "BepInEx/monomod",
-      "category": "fixes",
-      "gameVersion": "1.50",
-      "requiresRestart": true,
-      "configOptions": [
-        {
-          "section": "Optimization",
-          "key": "ImageBloom",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "发光重绘限帧（ImageBloom）"
-        },
-        {
-          "section": "Optimization",
-          "key": "RenderLayers",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "舞台与背景分层缓存重绘（RenderLayers）"
-        },
-        {
-          "section": "Optimization",
-          "key": "SwingJointPhysics",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "头发与服装物理限帧（SwingJointPhysics）"
-        },
-        {
-          "section": "Optimization",
-          "key": "InactiveMirrorIndicator",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "未开镜像时停用空白指示器（InactiveMirrorIndicator）"
-        },
-        {
-          "section": "Optimization",
-          "key": "NoUICameraDuringPlay",
-          "kind": "Boolean",
-          "defaultValue": "0",
-          "description": "打歌时关闭独立 UI 相机直绘 HUD（NoUICameraDuringPlay）"
-        },
-        {
-          "section": "Optimization",
-          "key": "GpuTextScroll",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "滚动文字改用 D3D11 GPU 着色器（GpuTextScroll）"
-        },
-        {
-          "section": "Optimization",
-          "key": "LoginRequestsBatching",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "合并登录分页请求（LoginRequestsBatching）"
-        },
-        {
-          "section": "Optimization",
-          "key": "AsyncLoginRequests",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "并发等待无依赖登录请求（AsyncLoginRequests）"
-        },
-        {
-          "section": "Optimization",
-          "key": "NoteBatching",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "音符共享材质与 GPU 合批（NoteBatching）"
-        },
-        {
-          "section": "Optimization",
-          "key": "PrimitiveMeshEmission",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "原生几何库批量生成轨道与长条网格（PrimitiveMeshEmission）"
-        },
-        {
-          "section": "Optimization",
-          "key": "GameplayPrewarm",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "开歌前预热判定与特效消除局中顿卡（GameplayPrewarm）"
-        },
-        {
-          "section": "Optimization",
-          "key": "UVAnimation",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "滚动贴图与帧动画保持合批（UVAnimation）"
-        },
-        {
-          "section": "Optimization",
-          "key": "CollabSocketCaching",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "复用联机 Socket 与地址减少 GC（CollabSocketCaching）"
-        },
-        {
-          "section": "Optimization",
-          "key": "CollabHeartbeatCaching",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "复用联机心跳对象减少 GC（CollabHeartbeatCaching）"
-        },
-        {
-          "section": "Optimization",
-          "key": "CollabMemberListCompaction",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "原地压缩联机成员列表减少 GC（CollabMemberListCompaction）"
-        },
-        {
-          "section": "Optimization",
-          "key": "UnityPlayerHooks",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "启用 Unity 引擎底层原生钩子（UnityPlayerHooks）"
-        },
-        {
-          "section": "Optimization.ImageBloom",
-          "key": "BloomFPS",
-          "kind": "Integer",
-          "defaultValue": "60",
-          "min": 1,
-          "description": "发光重绘频率上限（BloomFPS，须大于 0）"
-        },
-        {
-          "section": "Optimization.ImageBloom",
-          "key": "NoGlow",
-          "kind": "Boolean",
-          "defaultValue": "0",
-          "description": "彻底关闭发光效果（NoGlow，开启后忽略 BloomFPS）"
-        },
-        {
-          "section": "Optimization.RenderLayers",
-          "key": "StageFPS",
-          "kind": "Integer",
-          "defaultValue": "60",
-          "description": "舞台层重绘帧率上限（StageFPS，负数每帧 / 0 按需）"
-        },
-        {
-          "section": "Optimization.RenderLayers",
-          "key": "BGMergeFPS",
-          "kind": "Integer",
-          "defaultValue": "60",
-          "description": "合并背景层重绘帧率上限（BGMergeFPS，负数每帧 / 0 按需）"
-        },
-        {
-          "section": "Optimization.RenderLayers",
-          "key": "FXFPS",
-          "kind": "Integer",
-          "defaultValue": "60",
-          "description": "背景特效层重绘帧率上限（FXFPS，负数每帧 / 0 按需）"
-        },
-        {
-          "section": "Optimization.RenderLayers",
-          "key": "DisableShadows",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "开场演出后关闭舞台阴影（DisableShadows）"
-        },
-        {
-          "section": "Optimization.RenderLayers",
-          "key": "ScheduleGateCamera",
-          "kind": "Boolean",
-          "defaultValue": "0",
-          "description": "仅特效层重绘时更新传送门相机（ScheduleGateCamera）"
-        },
-        {
-          "section": "Optimization.RenderLayers",
-          "key": "EventFXOnly",
-          "kind": "Boolean",
-          "defaultValue": "0",
-          "description": "过渡特效期间仅逐帧重绘特效层（EventFXOnly）"
-        },
-        {
-          "section": "Optimization.SwingJointPhysics",
-          "key": "SwingJointFPS",
-          "kind": "Integer",
-          "defaultValue": "60",
-          "description": "头发/服装物理刷新上限（SwingJointFPS，0 或负数每帧）"
-        },
-        {
-          "section": "Optimization.UnityPlayerHooks",
-          "key": "GpuFenceWait",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "用 D3D11 Fence 替代默认 GPU Query 等待（GpuFenceWait）"
-        },
-        {
-          "section": "Optimization.UnityPlayerHooks",
-          "key": "JobSignalBatching",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "修复工作线程唤醒计数并合并唤醒（JobSignalBatching）"
-        },
-        {
-          "section": "Optimization.UnityPlayerHooks",
-          "key": "GraphicsJobs",
-          "kind": "Boolean",
-          "defaultValue": "1",
-          "description": "启用多线程 GraphicsJobs 与崩溃修复（GraphicsJobs）"
-        },
-        {
-          "section": "Optimization.UnityPlayerHooks",
-          "key": "GpuSkinning",
-          "kind": "Boolean",
-          "defaultValue": "0",
-          "description": "角色骨骼蒙皮改由 GPU 执行（GpuSkinning）"
-        }
-      ]
-    },
-    {
       "id": "TestMenuConfig",
       "displayName": "TestMenuConfig",
       "version": "3.9.0",
@@ -1172,6 +927,23 @@
       "size": 6656,
       "sha256": "36fc7cdfeb7175e756da47cc498fbad93aeac7e85b62138c477156e5948b4d2d",
       "installPath": "BepInEx/monomod",
+      "requiresRestart": true
+    }
+  ],
+  "modBundles": [
+    {
+      "id": "SDDTPerfFix",
+      "displayName": "SDDTPerfFix",
+      "chineseName": "弹幕性能优化与画质预设",
+      "description": "面向 ONGEKI 1.50（含 1.60 数据包）的弹幕性能优化、精准锁帧与三档画质预设插件（自动同步安装 BepInEx/plugins 与 BepInEx/patchers 预加载器）；游戏内按 F1 → TEST → MODS 可实时切换预设、锁帧上限与 FPS / 1% Low 浮窗，请勿与 mu3-optimizer / Steroid 同装。",
+      "version": "2.5.0",
+      "kind": "BepInExPlugin",
+      "asset": "SDDTPerfFix-v2.5.0.zip",
+      "size": 963149,
+      "sha256": "cc6e0f5eb9814f1028e5223700a3da2b4d91b782b7623460b12a79aaff0a3cb9",
+      "installPath": "BepInEx",
+      "category": "fixes",
+      "gameVersion": "1.50",
       "requiresRestart": true
     }
   ],
