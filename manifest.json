@@ -622,6 +622,21 @@
   ],
   "mods": [
     {
+      "id": "AMDaemon.NET.Steroid",
+      "displayName": "AMDaemon.NET.Steroid",
+      "chineseName": "AMDaemon 调用内联优化",
+      "description": "内联 AMDaemon.NET 原生接口调用，减少每次调用的委托分配与间接跳转开销；可独立使用，建议搭配「深度性能优化」一起启用。",
+      "version": "0.2.0",
+      "kind": "MonoMod",
+      "asset": "AMDaemon.NET.Steroid.mm.dll",
+      "size": 31232,
+      "sha256": "2f25fa2d1bdfa0222876a368edbfd1dfa01868a73565865591dc959566a09534",
+      "installPath": "BepInEx/monomod",
+      "category": "fixes",
+      "gameVersion": "1.50",
+      "requiresRestart": true
+    },
+    {
       "id": "AttractVideoPlayer",
       "displayName": "AttractVideoPlayer",
       "version": "3.7.0",
@@ -850,6 +865,21 @@
       "size": 24064,
       "sha256": "bf5cb75d53df88a457bb2dc81701be5ee53bbc7984744dc3a67353c0961561a3",
       "installPath": "BepInEx/monomod",
+      "requiresRestart": true
+    },
+    {
+      "id": "Steroid",
+      "displayName": "Steroid",
+      "chineseName": "深度性能优化",
+      "description": "大幅降低高帧率与密谱下的渲染和 CPU/GC 开销，预热局中特效并加速登录（含 Unity GraphicsJobs 崩溃修复）；适配 SDDT 1.50 / 1.60-D 社区版，各项可在 mu3.ini 的 [Optimization] 中单独开关。",
+      "version": "0.2.0",
+      "kind": "MonoMod",
+      "asset": "Assembly-CSharp.Steroid.mm.dll",
+      "size": 1481728,
+      "sha256": "b199955f4724bd09c62b1ac9ccc14af4c747a60c6aa304d7b29a8e760e5e18bb",
+      "installPath": "BepInEx/monomod",
+      "category": "fixes",
+      "gameVersion": "1.50",
       "requiresRestart": true
     },
     {
